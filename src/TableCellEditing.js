@@ -37,9 +37,8 @@ export default class TableCellEditing{
 
         toolbar.innerHTML = `
         <div class="button-wrapper">
-            <button class="btn btn-sm btn-outline-danger">Cancel</button>
-            <button class="btn btn-sm btn-outline-primary">Save</button>
-            <button class="btn btn-sm btn-outline-secondary">Insert Image</button>
+            <button class="btn btn-sm btn-primary">Save</button>
+            <button class="btn btn-sm btn-secondary">Insert Image</button>
         </div>
         `
 

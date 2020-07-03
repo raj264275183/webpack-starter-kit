@@ -22,7 +22,17 @@ table > tbody > tr > td .button-toolbar .button-wrapper {
   border-top: none;
 }
 
+table > tbody > tr > td.in-editing {
+  border: 2px solid dimgray;
+  background-color: white;
+}
+
 table > tbody > tr > td.in-editing .button-toolbar {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=table.css.map */

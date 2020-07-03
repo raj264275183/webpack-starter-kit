@@ -26,7 +26,8 @@ table {
                     border: 2px solid rgb(105, 105, 105);
                     background-color: white;
                     .button-toolbar{
-                        display:block;
+                        display: flex;
+                        justify-content: center;
                     }
                 }
 

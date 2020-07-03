@@ -1,5 +1,5 @@
-import {Person} from './Person';
-import './scss/style.scss';
+import  "./scss/style.scss";
+import TableCellEditing from "./TableCellEditing";
 
-const p = new Person('Zura');
-console.info(p.sayHello());
+const editing = new TableCellEditing(document.querySelector('table'));
+editing.init();
