@@ -1,0 +1,18 @@
+body {
+  padding: 50px;
+  background: #f0f0f0;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.wrapper .img-wrapper {
+  height: 260px;
+}
+
+.wrapper .card-text {
+  height: 74px;
+  overflow: hidden;
+}
+/*# sourceMappingURL=main.css.map */
