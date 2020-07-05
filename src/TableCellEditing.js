@@ -40,12 +40,16 @@ export default class TableCellEditing{
 
         toolbar.innerHTML = `
         <div class="button-wrapper">
-            <button class="btn btn-sm btn-danger">Cancel</button>
-            <button class="btn btn-sm btn-primary">Save</button>
+            <button class="btn btn-sm btn-primary btn-save">Save</button>
+            <button class="btn btn-sm btn-danger btn-cancel">Cancel</button>
         </div>
         `
 
         td.appendChild(toolbar);
-
+        const btnSave = toolbar.querySelector('.btn-save');
+        const btnCancel = toolbar.querySelector('.btn-cancel');
+        btnSave.addEventListener('click', () => {
+            this.finishEditing(td)
+        });
     }
 }
